@@ -1,0 +1,1410 @@
+@media (min-width:0px) and (max-width:220px) {
+
+    /* Header Center Logo */
+    .header-center-logo img {
+        width: 25px;
+    }
+
+    /* -------------------- */
+
+    /* Header Left & right Icon */
+    /* Left Icon of Header */
+    .header-left-icon-space {
+        margin-left: 10px;
+    }
+
+    /* Right Icon of Header */
+    .header-right-icon-space {
+        margin-right: 10px;
+    }
+
+    /* -------------------- */
+
+    /* Slider 2-1 (Mobile-Slider) */
+    #slider2-1 .text-part h3 {
+        font-size: 25px;
+    }
+
+    #slider2-1 .text-part p {
+        font-size: 14px;
+    }
+
+    #slider2-1 .text-part button {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:221px) and (max-width:574px) {
+
+    /* Header Center Logo */
+    .header-center-logo img {
+        width: 60px;
+    }
+
+    /* -------------------- */
+
+    /* Header Left & right Icon */
+    /* Left Icon of Header */
+    .header-left-icon-space {
+        margin-left: 15px;
+    }
+
+    /* Right Icon of Header */
+    .header-right-icon-space {
+        margin-right: 15px;
+    }
+
+    /* -------------------- */
+
+    /* Slider 2-1 (Mobile-Slider) */
+    #slider2-1 .text-part h3 {
+        font-size: 25px;
+    }
+
+    #slider2-1 .text-part p {
+        font-size: 14px;
+    }
+
+    #slider2-1 .text-part button {
+        font-size: 13px;
+    }
+}
+
+@media (min-width:0px) and (max-width:309px) {
+    .follow-on-social-media .main-box .imgs-box .inner-box {
+        padding: 15px 10px !important;
+    }
+}
+
+@media (min-width:309px) and (max-width:380px) {
+
+    /* #Follow On Social Media (@PANDORA) */
+    .col-vsm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .follow-on-social-media .main-box .imgs-box .inner-box {
+        padding: 10px !important;
+    }
+}
+
+@media (min-width:381px) and (max-width:574px) {
+
+    /* #Follow On Social Media (@PANDORA) */
+    .col-vsm-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .follow-on-social-media .main-box .imgs-box .inner-box {
+        padding: 10px !important;
+    }
+}
+
+/* -------------------------------------------------------------------------------------------------*/
+/* -------------------------------------------------------------------------------------------------*/
+
+/* RESPONSIVE */
+
+/* Android */
+@media (min-width:0) and (max-width:575px) {
+
+    /* Default Css */
+    .section-title {
+        font-size: 25px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .sub-title {
+        font-size: 13px !important;
+        margin-bottom: 10px;
+    }
+
+    /*  */
+    .spacer {
+        padding: 25px 15px !important;
+    }
+
+    .spacerY {
+        padding: 25px 0 !important;
+    }
+
+    .spacerX {
+        padding: 0 15px !important;
+    }
+
+    /*  */
+    .vp-display-none {
+        display: none;
+    }
+
+    /*  */
+    .col-xsm-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    /*  */
+    .col-xsm-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    /*  */
+    .col-xsm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    /* Slider 1 */
+    #slider1 .owl-nav {
+        display: none !important;
+    }
+
+    /* -------------- */
+    /* header */
+    header {
+        padding: 5px 15px;
+    }
+
+    /* Header Left & right Icon */
+    /* Header left icon */
+    .header-left-icon-space {
+        margin-left: 0 !important;
+        padding-left: 10px;
+    }
+
+    /* Header Right icon */
+    .header-right-icon-space {
+        margin-right: 0 !important;
+        padding-right: 10px;
+    }
+
+    /* Shop By Shape */
+    .shop-by-shape .main-box {
+        padding: 40px 20px !important;
+        border-radius: 50px !important;
+    }
+
+    .shop-by-shape h3 {
+        font-size: 25px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .shop-by-shape .box {
+        margin: 10px 5px;
+    }
+
+    .shop-by-shape .box h4 {
+        font-size: 15px !important;
+    }
+
+
+    /* you-may-love */
+    .you-may-love .box {
+        margin: 25px 0 15px 0;
+    }
+
+    /* trendy collection */
+    .trendy-collection .main-box p {
+        padding: 0 15px;
+    }
+
+    .trendy-collection .box {
+        margin: 5px 0;
+    }
+
+    .trendy-collection .three-btn {
+        margin: 15px 0;
+    }
+
+    .trendy-collection .three-btn button {
+        border: 0;
+        margin: 0 12px 7px;
+        font-size: 14px;
+    }
+
+    /* TC media query in JS */
+
+    /* TC Bottom Details Details */
+    .trendy-collection .box .text-bottom h3 {
+        font-size: 15px !important;
+    }
+
+    .trendy-collection .box .text-bottom span,
+    .price {
+        font-size: 13px !important;
+    }
+
+    .trendy-collection .icons .icon {
+        height: 25px !important;
+        width: 25px !important;
+    }
+
+    .trendy-collection .icons .icon i {
+        line-height: 25px !important;
+        font-size: 13px;
+    }
+
+    /* CMS BANNER */
+
+    .cms-banner .imgg-box {
+        background-image: url(../images/cms-banner-xsm-2.png) !important;
+        transition: 0.5s;
+    }
+
+    .cms-banner .imgg-box .text-part {
+        width: 100% !important;
+        text-align: center;
+        right: 0 !important;
+        padding: 20px;
+    }
+
+    .cms-banner .imgg-box .text-part h4 {
+        font-size: 32px !important;
+    }
+
+    .cms-banner .imgg-box .text-part button {
+        margin-top: 15px !important;
+    }
+
+    /* Exclusive Offer */
+    .exclusive-offer .main-box .box {
+        margin: 10px 0 !important;
+    }
+
+    .exclusive-offer .main-box .box .text-part {
+        left: 15px !important;
+        top: 15px !important;
+        width: 60% !important;
+    }
+
+    .exclusive-offer .box .text-part h3 {
+        font-size: 20px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .exclusive-offer .box .text-part p {
+        font-size: 13px !important;
+    }
+
+    /* our-latest-blog */
+    .our-latest-blog .main-box .box {
+        margin: 15px 0;
+    }
+
+    .our-latest-blog .main-box .box .text-part h4 {
+        font-size: 18px !important;
+    }
+
+    .our-latest-blog .main-box .box .text-part p {
+        font-size: 13px !important;
+    }
+
+    .our-latest-blog .bottom-viewall-btn button {
+        padding: 12px 35px !important;
+        font-size: 12px !important;
+    }
+
+    /* CUSTOMER REVIEWS */
+    .customer-reviwes .very-main-box {
+        /* container padding */
+        padding: 0 !important;
+    }
+
+    /* Under Slider 3 */
+    #slider3 .main-box p {
+        padding: 10px 15px !important;
+        line-height: 25px !important;
+    }
+
+    #slider3 .main-box h3 {
+        margin-bottom: 8px !important;
+    }
+
+    /* Services */
+    .service .main-box .box {
+        padding: 15px 0;
+    }
+
+    .service .main-box .box .icon-box {
+        padding: 20px;
+        width: 75px;
+    }
+
+    .service .main-box .box .text-part {
+        padding-top: 20px;
+    }
+
+    .service .main-box .box h3 {
+        font-size: 14px;
+    }
+
+    .service .main-box .box p {
+        font-size: 11px;
+    }
+
+}
+
+/* Android */
+@media (min-width:576px) and (max-width:767px) {
+
+    /* Default Css */
+    .section-title {
+        font-size: 25px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .sub-title {
+        font-size: 14px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /*  */
+    .spacer {
+        padding: 28px 16px !important;
+    }
+
+    .spacerY {
+        padding: 28px 0 !important;
+    }
+
+    .spacerX {
+        padding: 0 16px !important;
+    }
+
+    /* Slider 1 */
+    #slider1 .owl-nav {
+        display: none !important;
+    }
+
+    /* Header */
+    header {
+        padding: 5px 15px;
+    }
+
+    /* Shop By Shape */
+    .shop-by-shape .main-box {
+        padding: 50px 25px !important;
+        border-radius: 50px !important;
+    }
+
+    .shop-by-shape .box {
+        margin: 18px 5px;
+    }
+
+    .shop-by-shape h3 {
+        font-size: 25px !important;
+        padding-bottom: 20px !important;
+    }
+
+    /* you-may-love */
+    .you-may-love .box {
+        margin: 25px 0 15px 0;
+    }
+
+    /* trendy collection  */
+    .trendy-collection .three-btn {
+        padding: 20px 0 30px 0 !important;
+    }
+
+    .trendy-collection .three-btn button {
+        margin: 0 5px !important;
+        font-size: 15px !important;
+        padding: 8px 15px;
+        border: 1px solid transparent;
+        border-radius: 40px;
+        /* ------------- */
+    }
+
+    .trendy-collection .icons .icon {
+        height: 28px !important;
+        width: 28px !important;
+    }
+
+    .trendy-collection .icons .icon i {
+        line-height: 28px !important;
+        font-size: 15px;
+    }
+
+    /* TC Media Quary of js */
+    .trendy-collection .three-btn button:first-child {
+        border-radius: 40px;
+        border: 1px solid #044B61;
+        font-weight: bold;
+        padding: 8px 20px;
+    }
+
+    /* CMS BANNER */
+
+    .cms-banner .imgg-box {
+        background-image: url(../images/cms-banne-sm-2.jpg) !important;
+        transition: 0.5s;
+    }
+
+    .cms-banner .imgg-box .text-part {
+        width: 100% !important;
+        text-align: center;
+        right: 0 !important;
+        padding: 20px;
+    }
+
+    .cms-banner .imgg-box .text-part h4 {
+        font-size: 35px !important;
+    }
+
+    .cms-banner .imgg-box .text-part button {
+        margin-top: 15px !important;
+    }
+
+    /* Exclusive Offer */
+    .exclusive-offer .main-box .box {
+        margin: 10px 0 !important;
+    }
+
+    .exclusive-offer .main-box .box .text-part {
+        left: 35px !important;
+        top: 35px !important;
+        width: 50% !important;
+    }
+
+    .exclusive-offer .box .text-part h3 {
+        font-size: 28px !important;
+    }
+
+    .exclusive-offer .box .text-part p {
+        font-size: 15px !important;
+    }
+
+    /* our-latest-blog */
+    .our-latest-blog .main-box .box {
+        margin: 20px 0;
+    }
+
+    .our-latest-blog .main-box .box .text-part h4 {
+        font-size: 21px !important;
+    }
+
+    .our-latest-blog .main-box .box .text-part p {
+        font-size: 15px !important;
+    }
+
+    .our-latest-blog .bottom-viewall-btn button {
+        padding: 13px 35px !important;
+        font-size: 13px !important;
+    }
+
+    /* CUSTOMER REVIEWS */
+    .customer-reviwes .very-main-box {
+        /* container padding */
+        padding: 0 !important;
+    }
+
+    /* Under Slider 3 */
+    #slider3 .main-box p {
+        padding: 10px 15px !important;
+        line-height: 25px !important;
+    }
+
+    #slider3 .main-box h3 {
+        margin-bottom: 8px !important;
+    }
+
+    /* #Follow On Social Media (@PANDORA) */
+    .follow-on-social-media .main-box .imgs-box .inner-box {
+        padding: 10px !important;
+    }
+
+    /* Services */
+    .service .main-box .box {
+        padding: 13px 0;
+    }
+
+    .service .main-box .box .icon-box {
+        padding: 20px;
+        width: 75px;
+    }
+
+    .service .main-box .box .text-part {
+        padding-top: 20px;
+    }
+
+    .service .main-box .box h3 {
+        font-size: 15px;
+    }
+
+    .service .main-box .box p {
+        font-size: 13px;
+    }
+}
+
+/* Tablet */
+@media (min-width:768px) and (max-width:991px) {
+
+    /* Default Css */
+    .section-title {
+        font-size: 30px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .sub-title {
+        font-size: 15px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /*  */
+    .spacer {
+        padding: 30px 18px !important;
+    }
+
+    .spacerY {
+        padding: 30px 0 !important;
+    }
+
+    .spacerX {
+        padding: 0 18px !important;
+    }
+
+    /* Header */
+    header {
+        padding: 5px 32px;
+    }
+
+    /* --------------------------------------- */
+
+    /* Main slider (Slider 2 Computer) */
+
+    #slider2 .box .text-part {
+        width: 40%;
+    }
+
+    #slider2 .text-part h3 {
+        font-size: 35px;
+    }
+
+    #slider2 .text-part p {
+        margin-top: 10px;
+    }
+
+    #slider2 .text-part button {
+        margin-top: 20px;
+        padding: 10px 26px;
+    }
+
+    /* ----------------------------------------- */
+
+    /* Header Left & right Icon */
+    /* Left Icon of Header */
+    .header-left-icon-space {
+        margin-left: 15px;
+    }
+
+    /* Right Icon of Header */
+    .header-right-icon-space {
+        margin-right: 15px;
+    }
+
+    /* -------------------- */
+
+    /* Shop By Shape */
+    .shop-by-shape .main-box {
+        padding: 60px 30px !important;
+        border-radius: 50px !important;
+    }
+
+    .shop-by-shape .box {
+        margin: 15px 5px;
+    }
+
+    .shop-by-shape h3 {
+        font-size: 30px !important;
+        padding-bottom: 20px !important;
+    }
+
+    /* you-may-love */
+    .you-may-love .box {
+        margin: 25px 0 15px 0;
+    }
+
+    /* trendy collection */
+    .trendy-collection .three-btn {
+        padding: 20px 0 30px 0 !important;
+    }
+
+    .trendy-collection .three-btn button {
+        margin: 0 5px !important;
+        font-size: 15px !important;
+        padding: 8px 15px;
+        border: 1px solid transparent;
+        border-radius: 40px;
+    }
+
+    /* Media Query of js */
+    .trendy-collection .three-btn button:first-child {
+        border: 1px solid #044B61;
+        border-radius: 40px;
+        font-weight: bold;
+    }
+
+    /* Details */
+    .trendy-collection .box .text-bottom h3 {
+        font-size: 16px !important;
+    }
+
+    .trendy-collection .box .text-bottom span,
+    .price {
+        font-size: 14px !important;
+    }
+
+    /* CMS BANNER */
+    .cms-banner .imgg-box {
+        transition: 0.5s;
+    }
+
+    .cms-banner .imgg-box .text-part {
+        width: 45% !important;
+        padding: 20px;
+    }
+
+    .cms-banner .imgg-box .text-part h4 {
+        font-size: 35px !important;
+    }
+
+    .cms-banner .imgg-box .text-part button {
+        margin-top: 18px !important;
+    }
+
+    /* Exclusive Offer */
+    .exclusive-offer .main-box .box .text-part {
+        left: 20px !important;
+        top: 20px !important;
+        width: 60% !important;
+    }
+
+    .exclusive-offer .box .text-part h3 {
+        font-size: 20px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .exclusive-offer .box .text-part p {
+        font-size: 13px !important;
+    }
+
+
+    /* our-latest-blog */
+    .our-latest-blog .main-box .box .text-part h4 {
+        font-size: 16px !important;
+    }
+
+    .our-latest-blog .main-box .box .text-part p {
+        font-size: 12px !important;
+    }
+
+    .our-latest-blog .main-box .box .text-part .read-more {
+        font-size: 12px !important;
+        margin-top: 15px !important;
+    }
+
+    .our-latest-blog .bottom-viewall-btn button {
+        padding: 14px 35px !important;
+        font-size: 15px !important;
+    }
+
+    /* CUSTOMER REVIEWS */
+    .customer-reviwes {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+    }
+
+    /* Under Slider 3 */
+    #slider3 .main-box p {
+        padding: 10px 15px !important;
+    }
+
+    /* #Follow On Social Media (@PANDORA) */
+
+    .follow-on-social-media .main-box .imgs-box .inner-box {
+        padding: 10px !important;
+    }
+
+    /* Services */
+    .service .main-box .box {
+        padding: 13px 0;
+    }
+
+    .service .main-box .box .icon-box {
+        padding: 20px;
+        width: 25%;
+    }
+
+    .service .main-box .box .text-part {
+        padding-top: 20px;
+    }
+
+    .service .main-box .box h3 {
+        font-size: 16px;
+    }
+
+    .service .main-box .box p {
+        font-size: 14px;
+    }
+}
+
+/* PC / LAPTOP */
+@media (min-width:992px) and (max-width:1199px) {
+
+    /*  */
+    .spacer {
+        padding: 40px 30px !important;
+    }
+
+    .spacerY {
+        padding: 40px 0 !important;
+    }
+
+    .spacerX {
+        padding: 0 30px !important;
+    }
+
+    /* Default Css */
+    .section-title {
+        font-size: 35px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .sub-title {
+        font-size: 15px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* Left Menu of Header */
+    .main-menu-1 {
+        padding-right: 15px !important;
+        padding-left: 0 !important;
+    }
+
+    /* Right Menu of Header */
+    .main-menu-2 {
+        padding-left: 15px !important;
+        padding-right: 0 !important;
+    }
+
+    /* ------------------------------------ */
+
+    /* main-menu li a */
+    .main-menu li .single-menu {
+        padding: 30px 15px !important;
+    }
+
+    /* Main slider (Slider 2 Computer) */
+    #slider2 .box .text-part {
+        width: 45%;
+    }
+
+    #slider2 .text-part h3 {
+        font-size: 40px;
+    }
+
+    #slider2 .text-part p {
+        margin-top: 10px;
+    }
+
+    #slider2 .text-part button {
+        margin-top: 30px;
+        padding: 10px 26px;
+    }
+
+    /* ------------------------------ */
+
+    /* Header center logo */
+    .header-center-logo img {
+        width: 124px;
+    }
+
+    /* -------------------- */
+
+    /* Shop By Shape */
+    .shop-by-shape .main-box {
+        padding: 70px 40px !important;
+        border-radius: 100px !important;
+    }
+
+    .shop-by-shape .box {
+        margin: 15px 20px !important;
+    }
+
+    .shop-by-shape h3 {
+        font-size: 35px !important;
+        padding-bottom: 25px !important;
+    }
+
+    /* you-may-love */
+    .you-may-love .txt-paragraph {
+        margin-top: 15px;
+    }
+
+    /* CMS BANNER */
+    .cms-banner .imgg-box .text-part {
+        width: 45% !important;
+    }
+
+    .cms-banner .imgg-box .text-part h4 {
+        font-size: 35px !important;
+    }
+
+    .cms-banner .imgg-box .text-part button {
+        margin-top: 18px !important;
+    }
+
+    /* Exclusive Offer */
+    .exclusive-offer .main-box .box .text-part {
+        left: 20px !important;
+        top: 20px !important;
+        width: 60% !important;
+    }
+
+    .exclusive-offer .box .text-part h3 {
+        font-size: 28px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .exclusive-offer .box .text-part p {
+        font-size: 15px !important;
+    }
+
+    /* our-latest-blog */
+
+    .our-latest-blog .main-box .box .text-part h4 {
+        font-size: 20px !important;
+    }
+
+    .our-latest-blog .main-box .box .text-part p {
+        font-size: 15px !important;
+    }
+
+    /* CUSTOMER REVIEWS */
+    .customer-reviwes {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    /* Under Slider 3 */
+    #slider3 .main-box p {
+        padding: 20px 50px !important;
+    }
+
+    /* #Follow On Social Media (@PANDORA) */
+    .col-lg-20 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+    /* #Follow On Social Media (@PANDORA) */
+    .follow-on-social-media .main-box .imgs-box .inner-box {
+        padding: 10px !important;
+    }
+
+    /* Services */
+    .service .main-box .box .icon-box {
+        padding: 10px;
+        width: 25%;
+    }
+
+    .service .main-box .box .text-part {
+        padding-top: 20px;
+    }
+
+    .service .main-box .box h3 {
+        font-size: 16px;
+    }
+
+    .service .main-box .box p {
+        font-size: 14px;
+    }
+
+}
+
+/* PC / LAPTOP */
+@media (min-width:1200px) and (max-width:1399px) {
+
+    /* Default Css */
+    .section-title {
+        font-size: 40px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .sub-title {
+        font-size: 15px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /*  */
+    .spacer {
+        padding: 45px 30px !important;
+    }
+
+    .spacerY {
+        padding: 45px 0 !important;
+    }
+
+    .spacerX {
+        padding: 0 30px !important;
+    }
+
+    /* main-menu li a */
+    .main-menu li .single-menu {
+        padding: 30px 15px !important;
+    }
+
+    /* Main slider (Slider 2 Computer) */
+    #slider2 .box .text-part {
+        width: 38%;
+    }
+
+    #slider2 .text-part h3 {
+        font-size: 50px;
+    }
+
+    #slider2 .text-part p {
+        margin-top: 20px;
+    }
+
+    #slider2 .text-part button {
+        margin-top: 40px;
+        padding: 10px 26px;
+    }
+
+    /* ---------------------------------------- */
+
+    /* Header center logo */
+    .header-center-logo img {
+        width: 128px;
+    }
+
+    /* --------------------------- */
+
+    /* Shop By Shape */
+    .shop-by-shape .main-box {
+        padding: 60px 40px !important;
+        border-radius: 100px !important;
+    }
+
+    .shop-by-shape .box {
+        margin: 15px 20px !important;
+    }
+
+    .shop-by-shape h3 {
+        font-size: 40px !important;
+        padding-bottom: 25px !important;
+    }
+
+    /* CMS BANNER */
+    .cms-banner .imgg-box .text-part {
+        width: 40% !important;
+    }
+
+    .cms-banner .imgg-box .text-part h4 {
+        font-size: 35px !important;
+    }
+
+    .cms-banner .imgg-box .text-part button {
+        margin-top: 18px !important;
+    }
+
+    /* Exclusive Offer */
+    .exclusive-offer .main-box .box .text-part {
+        left: 35px !important;
+        top: 35px !important;
+        width: 60% !important;
+    }
+
+    .exclusive-offer .box .text-part h3 {
+        font-size: 35px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .exclusive-offer .box .text-part p {
+        font-size: 16px !important;
+    }
+
+    /* our-latest-blog */
+    .our-latest-blog .main-box .box .text-part p {
+        font-size: 15px !important;
+    }
+
+    /* CUSTOMER REVIEWS */
+    .customer-reviwes {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    /* Under Slider 3 */
+    #slider3 .main-box p {
+        padding: 10px 60px !important;
+    }
+
+    /* #Follow On Social Media (@PANDORA) */
+    .col-lg-20 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+    /* #Follow On Social Media (@PANDORA) */
+    .follow-on-social-media .main-box .imgs-box .inner-box {
+        padding: 14px !important;
+    }
+
+    /* Services */
+    .service .main-box .box {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .service .main-box .box .icon-box {
+        padding: 20px;
+        width: 25%;
+    }
+
+    .service .main-box .box .text-part {
+        padding: 25px 15px;
+        text-align: left;
+    }
+
+    .service .main-box .box h3 {
+        font-size: 16px;
+    }
+
+    .service .main-box .box p {
+        font-size: 14px;
+    }
+
+}
+
+/* PC / LAPTOP */
+@media (min-width:1400px) {
+
+    /* Default Css */
+    .section-title {
+        font-size: 40px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .sub-title {
+        font-size: 15px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /*  */
+    .spacer {
+        padding: 50px 32px !important;
+    }
+
+    .spacerY {
+        padding: 50px 0 !important;
+    }
+
+    .spacerX {
+        padding: 0 32px !important;
+    }
+
+    /* main menu li a */
+    .main-menu li .single-menu
+
+    /* .single-menu = a*/
+        {
+        padding: 30px !important;
+    }
+
+    /* ------------------------------------- */
+
+    /* Main slider (Slider 2 Computer) */
+    #slider2 .box .text-part {
+        width: 30%;
+    }
+
+    #slider2 .text-part h3 {
+        font-size: 60px;
+    }
+
+    #slider2 .text-part p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    #slider2 .text-part button {
+        padding: 14px 35px;
+        border-radius: 35px;
+        margin-top: 40px;
+    }
+
+    /* ---------------------------- */
+
+    /* Header center logo */
+    .header-center-logo img {
+        width: 135px;
+    }
+
+    /* --------------------------- */
+
+    /* Shop By Shape */
+    .shop-by-shape .main-box {
+        padding: 70px 20px !important;
+        border-radius: 100px !important;
+    }
+
+    .shop-by-shape .box {
+        margin: 10px !important;
+    }
+
+    .shop-by-shape h3 {
+        font-size: 40px !important;
+        padding-bottom: 25px !important;
+    }
+
+    /* CMS BANNER */
+    .cms-banner .imgg-box .text-part {
+        width: 35% !important;
+    }
+
+    .cms-banner .imgg-box .text-part h4 {
+        font-size: 40px !important;
+    }
+
+    .cms-banner .imgg-box .text-part button {
+        margin-top: 35px !important;
+    }
+
+    /* Exclusive Offer */
+    .exclusive-offer .main-box .box .text-part {
+        left: 35px !important;
+        top: 35px !important;
+        width: 60% !important;
+    }
+
+    .exclusive-offer .box .text-part h3 {
+        font-size: 38px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .exclusive-offer .box .text-part p {
+        font-size: 17px !important;
+    }
+
+    /* our-latest-blog */
+
+    .our-latest-blog .main-box .box .text-part h4 {
+        font-size: 22px !important;
+    }
+
+    .our-latest-blog .main-box .box .text-part p {
+        font-size: 18px !important;
+    }
+
+    .our-latest-blog .main-box .box .text-part .read-more {
+        font-size: 16px !important;
+    }
+
+    /* CUSTOMER REVIEWS */
+    .customer-reviwes {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+    }
+
+    /* Under Slider 3 */
+    #slider3 .main-box p {
+        padding: 20px 130px !important;
+        text-align: justify !important;
+        text-align-last: center;
+    }
+
+    /* #Follow On Social Media (@PANDORA) */
+    .col-lg-20 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+    /* #Follow On Social Media (@PANDORA) */
+    .follow-on-social-media .main-box .imgs-box .inner-box {
+        padding: 14px !important;
+    }
+
+    /* Services */
+    .service .main-box .box {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .service .main-box .box .icon-box {
+        padding: 20px;
+        width: 25%;
+    }
+
+    .service .main-box .box .text-part {
+        padding: 25px 15px;
+        text-align: left;
+    }
+
+    .service .main-box .box h3 {
+        font-size: 16px;
+    }
+
+    .service .main-box .box p {
+        font-size: 14px;
+    }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+@media (min-width:0px) {
+
+    /* Footer */
+    footer .main-box {
+        padding: 50px 20px 10px;
+    }
+
+    footer .top-footer {
+        padding-bottom: 30px;
+    }
+
+    /* Categories and link */
+    footer .top-footer .list {
+        display: none;
+    }
+
+    footer .top-footer .logo-icon {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:410px) {
+    footer .main-box .language-rupees {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .main-box .input-email .main-input {
+        width: 360px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width:992px) {
+
+    /* Header */
+    header {
+        padding: 20px 30px;
+    }
+
+    /* -------------------------------------- */
+
+    /* Header Left & right Icon */
+    /* Left Icon of Header */
+    .header-left-icon-space {
+        margin-left: 20px;
+    }
+
+    /* Right Icon of Header */
+    .header-right-icon-space {
+        margin-right: 20px;
+    }
+
+    /* Trendy Collection */
+    .trendy-collection .main-box p {
+        padding: 0 25px !important;
+    }
+
+    .trendy-collection .three-btn {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .trendy-collection .three-btn button {
+        margin: 0 5px !important;
+        font-size: 15px !important;
+        padding: 8px 15px;
+        border: 1px solid transparent;
+        border-radius: 40px;
+        transition: 0.3s;
+    }
+
+    /* Media Query of js */
+    .trendy-collection .three-btn button:first-child {
+        border: 1px solid #044B61;
+        border-radius: 40px;
+        font-weight: bold;
+    }
+
+    /* Hover Start 992px */
+    .trendy-collection .three-btn button:hover {
+        border: 1px solid #044B61 !important;
+        border-radius: 40px !important;
+        padding: 8px 20px;
+    }
+
+    /* Footer */
+    footer .main-box {
+        padding: 100px 35px 20px;
+    }
+
+    footer .top-footer {
+        display: flex;
+        padding-bottom: 60px;
+    }
+
+    footer .top-footer .accordion {
+        display: none;
+    }
+
+    /* Categories and Links */
+    footer .top-footer .list {
+        display: block;
+    }
+
+    footer .top-footer .text-part {
+        order: 5;
+    }
+
+    footer .top-footer .logo-icon {
+        margin-bottom: 0px;
+    }
+
+    footer .main-box .input-email .main-input {
+        width: 90%;
+        margin: 0;
+    }
+}
+
+@media (min-width:1200px) {
+
+    /* Left Menu of Header */
+    .main-menu-1 {
+        padding-right: 60px !important;
+        padding-left: 0 !important;
+    }
+
+    /* Right Menu of Header */
+    .main-menu-2 {
+        padding-left: 60px !important;
+        padding-right: 0 !important;
+    }
+
+    /* Shape by shop */
+    .shop-by-shape .box {
+        width: 90px !important;
+    }
+
+    /* Footer */
+    footer .bottom-footer .payment-icon {
+        order: 3;
+    }
+
+    footer .bottom-footer .language-rupees {
+        order: 2;
+    }
+
+    footer .bottom-footer .f-copyright {
+        order: 1;
+    }
+}

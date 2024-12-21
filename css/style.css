@@ -1,0 +1,1384 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v35-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/open-sans-v35-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v35-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* ----------------- */
+/* philosopher-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/philosopher-v19-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* philosopher-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/philosopher-v19-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* ----------------------------------------------------------------------
+
+                            Default CSS
+
+------------------------------------------------------------------------*/
+
+/* Default Css */
+.section-title {
+    color: var(--black-color);
+    font-family: var(--font-Philosopher);
+}
+
+.sub-title {
+    color: #474747;
+    font-family: var(--font-openSans);
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --black-color: black;
+    --white-color: #fff;
+    --dark-teal-color: #044B61;
+    /* --light-teal-color:#024256; */
+    --font-Philosopher: 'Philosopher';
+    --font-openSans: 'Open Sans';
+}
+
+.bg-teal {
+    background-color: var(--dark-teal-color);
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+
+/*  TOP SMALL SLIDER */
+/* Slider 1 */
+
+#slider1 .box a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider1 .box p {
+    padding: 11px 20px;
+    font-size: 13px;
+    display: block;
+}
+
+#slider1 .box span {
+    font-size: 13px;
+    color: var(--white-color);
+    font-family: var(--font-openSans);
+    font-weight: 800;
+}
+
+/* Slider 1 Navigation */
+
+#slider1 .owl-nav {
+    margin: 0;
+}
+
+#slider1 .owl-nav button {
+    height: 39.500px;
+    width: 44px;
+    margin: 0 !important;
+}
+
+#slider1 .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(20px, -50%);
+}
+
+#slider1 .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-20px, -50%);
+}
+
+/* Navigation Icon */
+#slider1 .owl-nav i {
+    color: var(--white-color);
+    transform: scale(0.750);
+    transition: 0.3s;
+}
+
+/* Navigation Hover Effects */
+#slider1 .owl-nav button:hover {
+    background-color: transparent !important;
+}
+
+#slider1 .owl-nav button:hover i {
+    transform: scale(1);
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+
+/* Header */
+
+header {
+    background-color: var(--white-color);
+}
+
+/* Header Icon */
+
+.header-icon-part a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+/* Header Icon Hover Effects */
+
+.header-icon-part img {
+    width: 22px;
+    height: 22px;
+    line-height: 30px;
+}
+
+.header-icon-part a:hover img {
+    width: 24px;
+    height: 24px;
+}
+
+/* ------------------------------------- */
+
+/* Main menu of header */
+
+.main-menu li .single-menu
+
+/*.single menu means anchor tag*/
+    {
+    padding: 30px 15px;
+    font-size: 18px;
+    display: block;
+    font-family: var(--font-Philosopher);
+    color: var(--black-color);
+}
+
+/* ------------------------------------- */
+
+/* Span Child Bottom Underline */
+.main-menu span {
+    position: relative;
+}
+
+.main-menu span::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 1.500px;
+    background-color: var(--dark-teal-color);
+    width: 0;
+    transition: 0.4s;
+}
+
+/* Underline Hover Effects */
+
+.main-menu li:hover a>.letter-6::after {
+    width: 60px;
+}
+
+.main-menu li:hover a>.letter-8::after {
+    width: 70px;
+}
+
+.main-menu li:hover a>.letter-4::after {
+    width: 42px;
+}
+
+.main-menu li:hover a>.letter-4-min::after {
+    width: 35px;
+}
+
+/* ------------------------------------- */
+
+/* Main menu color change Hover Effects */
+.main-menu li:hover>.single-menu {
+    color: var(--dark-teal-color);
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+/* Jawellery and Theme Mega Menu */
+
+/* Mega Menu */
+.mega-menu {
+    /* Parant of header. */
+    position: absolute;
+    background-color: var(--white-color);
+    width: 100%;
+    left: 0;
+    top: 100%;
+    padding: 24px 38px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+}
+
+/* Mega menu text part */
+.mega-menu li a {
+    padding: 6px 0 !important;
+    font-size: 14px;
+    font-family: var(--font-openSans);
+    transition: 0.3s;
+    color: black;
+    display: block;
+}
+
+.mega-menu li .fs-18 {
+    font-size: 18px;
+    margin-bottom: 8px !important;
+    font-family: var(--font-Philosopher);
+}
+
+/* Mega Menu Hover Effects */
+.mega-menu li a:hover {
+    color: var(--dark-teal-color);
+}
+
+/* --------------------------------- */
+
+/* Mega menu Image part */
+.mega-menu-img-1 a {
+    padding: 0 !important;
+    color: var(--black-color);
+}
+
+.mega-menu-img-1 h3 {
+    font-size: 18px;
+    font-family: var(--font-Philosopher);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.mega-menu-img-1 p {
+    font-size: 14px;
+    padding: 6px 0;
+    margin-bottom: 14px;
+}
+
+/* ----------------------------------- */
+
+/* Mega menu last image */
+.mega-menu-sale-img-1 {
+    overflow: hidden;
+    position: relative;
+}
+
+/* Image Hover Effects */
+.mega-menu-sale-img-1 img {
+    transition: 0.3s;
+}
+
+.mega-menu-img-1:last-child a:hover .mega-menu-sale-img-1 img {
+    transform: scale(1.0400);
+}
+
+/* Sale Text Left Top */
+.mega-menu-sale-img-1::after {
+    content: 'Sale';
+    font-family: var(--font-openSans);
+    padding: 3px 15px;
+    /* Parent is mega-menu-sale-img-1*/
+    position: absolute;
+    font-size: 12px;
+    border-radius: 14px;
+    left: 10px;
+    top: 10px;
+    background-color: var(--dark-teal-color);
+    color: var(--white-color);
+}
+
+
+/* Image bottom Text */
+.mega-menu-img-1:last-child p {
+    font-size: 18px;
+}
+
+.mega-menu-img-1:last-child span {
+    font-family: var(--font-openSans);
+    font-weight: lighter !important;
+}
+
+.mega-menu-img-1:last-child span:last-child {
+    margin-left: 10px;
+}
+
+/* --------------------------------- */
+
+/* Main Menu Through Show MegaMenu */
+.main-menu li:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+/* Sub menu of More */
+.sub-menu-parent {
+    position: relative;
+}
+
+.sub-menu {
+    /* Parent of mainmenu > li */
+    position: absolute;
+    left: 0;
+    top: 121%;
+    background-color: var(--white-color);
+    padding: 10px 20px;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+    display: block;
+}
+
+.sub-menu li a {
+    color: var(--black-color);
+    padding: 2px 0;
+    display: block;
+    transition: 0.3s;
+}
+
+/* Sub Menu hover effects */
+.main-menu li:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sub-menu li a:hover {
+    color: var(--dark-teal-color);
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+/* Hide Part Of header */
+.hide-part {
+    position: relative;
+}
+
+.hide-part::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    display: block;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+/* Slider 2 (main Slider) */
+
+#slider2 .box {
+    position: relative;
+}
+
+#slider2 .box .text-part {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    padding: 20px;
+    margin-left: 30px;
+
+}
+
+#slider2 .text-part h3 {
+    font-family: var(--font-Philosopher);
+    display: inline;
+}
+
+#slider2 .text-part p {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+#slider2 .text-part button {
+    padding: 14px 35px;
+    border-radius: 35px;
+    border: 0;
+    background-color: var(--dark-teal-color);
+    color: var(--white-color);
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.500px;
+    transition: 0.5s;
+}
+
+/* First Page Of Slider Image */
+/* Button Hover Effects */
+#slider2 .text-part .btn1:hover {
+    padding: 14px 25px;
+    background-color: var(--black-color);
+}
+
+/* Second Page Of Slider Image */
+/* Button Hover Effects */
+#slider2 .text-part .btn2:hover {
+    padding: 14px 25px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+/* Slider button in icon spacing */
+#slider2 .text-part button i {
+    margin-left: 5px;
+}
+
+/* ------------------------------------ */
+
+/* Slider 2 Dots */
+
+#slider2 .owl-dots {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-top: 0 !important;
+    margin-bottom: 10px;
+}
+
+#slider2 .owl-dots .owl-dot span {
+    background-color: transparent !important;
+    border: 1px solid var(--white-color);
+    transition: 0.3s;
+}
+
+#slider2 .owl-dots .owl-dot.active span {
+    background-color: var(--white-color) !important;
+    transform: scale(1) !important;
+}
+
+#slider2 .owl-dots .owl-dot:hover span {
+    transform: scale(1.0400);
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+/* Slider 2-1 Mobile Device */
+#slider2-1 .box .text-part {
+    padding: 20px;
+}
+
+#slider2-1 .text-part h3 {
+    font-family: var(--font-Philosopher);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+#slider2-1 .text-part p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#slider2-1 .text-part button {
+    margin-top: 20px;
+    padding: 11px 37px;
+    border-radius: 35px;
+    border: 0;
+    background-color: var(--dark-teal-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.500px;
+}
+
+/* ------------------------------------------------- */
+
+/* Slider 2.1 dots */
+#slider2-1 .owl-dots {
+    margin-top: 0 !important;
+}
+
+#slider2-1 .owl-dots .owl-dot span {
+    background-color: transparent !important;
+    border: 1px solid var(--dark-teal-color);
+    transition: 0.3s;
+}
+
+#slider2-1 .owl-dots .owl-dot.active span {
+    background-color: var(--dark-teal-color) !important;
+    transform: scale(1) !important;
+}
+
+#slider2-1 .owl-dots .owl-dot:hover span {
+    transform: scale(1.0400);
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+/* SHOP BY SHAPE */
+.shop-by-shape {
+    background-color: var(--white-color);
+    font-family: var(--font-Philosopher);
+}
+
+.shop-by-shape .main-box {
+    background-color: #f5fdff;
+}
+
+.shop-by-shape .box {
+    text-align: center;
+    display: block;
+    padding: 0;
+}
+
+.shop-by-shape .box .round-img {
+    border: 1px solid #0fc7ff;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.shop-by-shape img {
+    transition: 0.3s;
+}
+
+.shop-by-shape .box:hover img {
+    transform: scale(1.0400);
+}
+
+.line-text {
+    border-bottom: 2px solid #139fca;
+    width: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.shop-by-shape .box h4 {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0;
+    position: relative;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+/* YOU MAY LOVE */
+.you-may-love .box .img-box img {
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.you-may-love .box .img-box {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.you-may-love .box:hover img {
+    transform: scale(1.0500);
+}
+
+.you-may-love .box .text-bottom {
+    margin-top: 20px;
+}
+
+.you-may-love .box .text-bottom h4 {
+    font-family: var(--font-Philosopher);
+    font-size: 18px;
+    color: var(--black-color);
+}
+
+.you-may-love .box .text-bottom i {
+    color: var(--black-color);
+    font-size: 18px;
+}
+
+.you-may-love .txt-paragraph {
+    color: #474747;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+/* trendy-collection */
+
+/* Main three button */
+.trendy-collection .main-box .three-btn button {
+    font-family: var(--font-openSans);
+    background-color: transparent;
+}
+.trendy-collection .main-box .tab-content {
+    display: none; 
+}
+
+.trendy-collection .box .img-box {
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+}
+
+.trendy-collection .box .img-box img {
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+/* Image Hover Efects */
+.trendy-collection .box:hover .img-box img {
+    transform: scale(1.0600);
+}
+
+/* Three Icon of right side */
+.trendy-collection .icons .icon {
+    border: 1px solid rgb(194, 184, 184);
+    display: block;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 0 10px 0;
+    background-color: var(--white-color);
+    display: block;
+    transition: 0.3s;
+}
+
+.trendy-collection .icons i {
+    line-height: 35px;
+    color: var(--black-color);
+    transition: 0.3s;
+}
+
+.trendy-collection .icons {
+    /* Parent of Image Box */
+    position: absolute;
+    right: 3px;
+    top: 10px;
+}
+
+.trendy-collection .icons {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+/* icon hover effects */
+.trendy-collection .box:hover .icons {
+    right: 14px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.trendy-collection .icons .icon:hover {
+    background-color: var(--dark-teal-color);
+    border: 0;
+}
+
+.trendy-collection .icons .icon:hover i {
+    color: var(--white-color);
+}
+
+/* Bottom text part */
+.trendy-collection .box .text-bottom {
+    padding: 15px 0;
+}
+
+.trendy-collection .box .text-bottom h3 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: var(--font-Philosopher);
+    margin: 0;
+    color: #474747;
+}
+
+.trendy-collection .box .text-bottom .price {
+    margin-top: 10px;
+    color: var(--black-color);
+    font-weight: bold;
+}
+
+/* Three color */
+.trendy-collection .box .text-bottom .colors {
+    margin-top: 10px;
+}
+
+.trendy-collection .box .text-bottom .colors .color-box {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    border: 1px solid rgb(222, 213, 213);
+    position: relative;
+    margin-right: 10px;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.trendy-collection .box .text-bottom .colors .color-box img {
+    width: 15px;
+    border-radius: 50%;
+    height: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Bottom Shop Button */
+.bottom-shop-btn button {
+    padding: 14px 35px;
+    border-radius: 35px;
+    border: 0;
+    background-color: var(--dark-teal-color);
+    color: var(--white-color);
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.500px;
+    transition: 0.5s;
+}
+
+/* Button Hover Effects */
+.bottom-shop-btn button:hover {
+    padding: 14px 25px;
+    background-color: var(--black-color);
+}
+
+.bottom-shop-btn button i {
+    margin-left: 5px;
+}
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+
+/* CMS BANNER */
+.cms-banner .imgg-box {
+    background-image: url(../images/cms-banner-2xl-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 280px 0;
+    position: relative;
+    width: 100%;
+}
+
+.cms-banner .imgg-box .text-part {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10%;
+    width: 30%;
+}
+
+.cms-banner .imgg-box .text-part h4 {
+    font-size: 40px;
+    font-family: var(--font-Philosopher);
+    color: var(--black-color);
+    margin: 0;
+}
+
+.cms-banner .text-part button {
+    padding: 12px 36px;
+    border-radius: 35px;
+    border: 0;
+    background-color: var(--dark-teal-color);
+    color: var(--white-color);
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.500px;
+    transition: 0.5s;
+}
+
+.cms-banner .text-part button i {
+    margin-left: 5px;
+}
+
+/* Button Hover Effects */
+.cms-banner .text-part button:hover {
+    padding: 12px 25px;
+    background-color: var(--black-color);
+}
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+
+
+/* exclusive-offer */
+.exclusive-offer .main-box .box {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.exclusive-offer .main-box .box img {
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.exclusive-offer .main-box .box:hover img {
+    transform: scale(1.0500);
+}
+
+.exclusive-offer .main-box .box .text-part {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 45%;
+}
+
+.exclusive-offer .box .text-part h3 {
+    font-family: var(--font-Philosopher);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.exclusive-offer .box .text-part p {
+    font-family: var(--font-openSans);
+    margin: 0;
+}
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+
+/* OUR LATEST BLOG */
+.our-latest-blog .box {
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgb(242, 239, 239);
+    padding: 8px;
+    background-color: transparent;
+}
+
+.our-latest-blog .box .img-box {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.our-latest-blog .box .img-box img {
+    transition: 0.3s;
+}
+
+.our-latest-blog .box:hover img {
+    transform: scale(1.0500);
+}
+
+.our-latest-blog .box:hover .text-part h4 {
+    color: var(--dark-teal-color);
+}
+
+.our-latest-blog .box img {
+    border-radius: 12px;
+}
+
+.our-latest-blog .box .text-part h4 {
+    color: var(--black-color);
+    font-size: 19px;
+    font-family: var(--font-Philosopher);
+    margin: 0;
+    transition: 0.3s;
+}
+
+.our-latest-blog .box .text-part p {
+    font-size: 15px;
+    color: var(--black-color);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.our-latest-blog .main-box .box .text-part .read-more {
+    font-weight: bold;
+    font-family: var(--font-openSans);
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 20px;
+    display: block;
+    color: var(--dark-teal-color);
+}
+
+.our-latest-blog .box .text-part {
+    padding: 15px 10px;
+}
+
+/* ---------------------- */
+.our-latest-blog .bottom-viewall-btn {
+    margin-top: 50px;
+}
+
+.our-latest-blog .bottom-viewall-btn button {
+    background-color: var(--dark-teal-color);
+    color: var(--white-color);
+    font-family: var(--font-openSans);
+    font-weight: 600;
+    border: 0;
+    padding: 14px 35px;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+
+.our-latest-blog .bottom-viewall-btn button:hover {
+    background-color: var(--black-color);
+    padding: 14px 25px;
+}
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+
+/* CUSTOMER REVIEWS */
+/* .customer-reviwes .very-main-box
+{
+    padding: 0 !important;
+} */
+
+.customer-reviwes .very-main-box .slider-img {
+    position: relative;
+    display: block;
+    background-image: url(../images/review-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 280px 0;
+    width: 100%;
+}
+
+.customer-reviwes .very-main-box .slider-img .absolute-slider {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Under Slider 3 */
+
+#slider3 .main-box {
+    font-family: var(--font-openSans);
+    display: block;
+}
+
+#slider3 .main-box p {
+    font-size: 14px;
+    padding: 10px 130px;
+    font-family: var(--font-openSans);
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+#slider3 .main-box .h-line {
+    height: 1.500px;
+    width: 50px;
+    background-color: var(--dark-teal-color);
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+#slider3 .main-box h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#slider3 .main-box span {
+    font-size: 14px;
+}
+
+/* Slider 3 Dots */
+
+#slider3 .owl-dots {
+    margin-top: 17px !important;
+}
+
+#slider3 .owl-dots .owl-dot {
+    padding: 0 5px !important;
+}
+
+#slider3 .owl-dots .owl-dot span {
+    width: 12px !important;
+    height: 12px !important;
+    margin: 0 !important;
+    transition: 0.2s;
+}
+
+#slider3 .owl-dots .owl-dot.active span {
+    background-color: var(--dark-teal-color);
+}
+
+#slider3 .owl-dots .owl-dot:hover span {
+    background-color: #D6D6D6 !important;
+    transform: scale(1.100);
+}
+
+#slider3 .owl-dots .owl-dot.active:hover span {
+    background-color: var(--dark-teal-color) !important;
+    transform: scale(1);
+}
+
+/* #Follow On Social Media (@PANDORA) */
+.follow-on-social-media .main-box .box {
+    position: relative;
+    transition: 0.3s;
+}
+
+.follow-on-social-media .main-box .box img {
+    border-radius: 10px;
+}
+
+.follow-on-social-media .main-box .box::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+
+}
+
+.follow-on-social-media .main-box .box i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    z-index: 3;
+    font-size: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.follow-on-social-media .main-box .box:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.follow-on-social-media .main-box .box:hover i {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Services */
+.service .main-box .box .icon-box {
+    background-color: var(--white-color);
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0 0 10px lightgray;
+}
+
+.service .main-box .box h3 {
+    font-family: var(--font-Philosopher);
+    margin: 0;
+    font-weight: bold;
+}
+
+.service .main-box .box p {
+    font-family: var(--font-openSans);
+    margin: 0;
+}
+
+.service .main-box .box .icon-box img {
+    width: 100%;
+}
+
+.service .main-box .box .two-para {
+    margin-top: 5px;
+}
+
+/* Footer */
+footer .main-box {
+    background-color: var(--dark-teal-color);
+}
+
+/* Top Footer */
+/* Logo */
+footer .top-footer .footer-logo {
+    width: 200px;
+}
+
+/* Left Icons */
+footer .top-footer .f-icons {
+    margin-top: 20px;
+}
+
+footer .top-footer .f-icons .icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+footer .top-footer .f-icons .icon i {
+    line-height: 40px;
+    font-size: 20px;
+    color: var(--dark-teal-color);
+}
+
+/* Link and Categories */
+footer .top-footer .list {
+    text-align: left;
+}
+
+footer .top-footer .list h4 {
+    font-family: var(--font-Philosopher);
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer .top-footer .list ul li {
+    margin-right: 20px;
+}
+
+footer .top-footer .list ul li a {
+    padding: 5px 0;
+    display: inline-block;
+    font-family: var(--font-openSans);
+}
+
+/* Text Part */
+footer .top-footer .text-part h3 {
+    font-size: 16px;
+    font-family: var(--font-Philosopher);
+    color: var(--white-color);
+}
+
+footer .top-footer .text-part .f-input-email {
+    font-size: 14px !important;
+    background-color: #024256 !important;
+    color: var(--white-color) !important;
+    border: 1px solid #1E667C;
+    border-radius: 40px !important;
+}
+
+footer .top-footer .text-part .main-input label {
+    color: var(--white-color);
+}
+
+/* Input Padding */
+footer .top-footer .text-part .main-input .f-input-email-plaintext:focus,
+.main-input .f-input-email-plaintext:not(:placeholder-shown),
+.main-input .f-input-email:focus,
+.main-input .f-input-email:not(:placeholder-shown) {
+    padding-top: 23px !important;
+    padding-bottom: 13px !important;
+    padding-left: 27px !important;
+}
+
+
+/* Label Padding */
+footer .top-footer .text-part .main-input label {
+    /* padding: 16px 27px !important; */
+    padding: 12px 0 !important;
+    padding-left: 27px !important;
+    border: none !important;
+    font-size: 15px;
+}
+
+/* Input Size */
+.main-input>.f-input-email,
+.main-input>.f-input-email-plaintext,
+.main-input>.form-select {
+    height: 45px !important;
+    min-height: 0 !important;
+    line-height: normal !important;
+}
+
+
+/* Input Focus */
+.main-input .f-input-email:focus {
+    background-color: #024256 !important;
+    box-shadow: none !important;
+    border: 1px solid #1E667C;
+}
+
+/* Label Focus */
+.main-input .f-input-email:focus~label::after,
+.main-input>.f-input-email:not(:placeholder-shown)~label::after {
+    inset: none !important;
+    background-color: transparent !important;
+}
+
+.main-input .f-input-email-plaintext~label,
+.main-input .f-input-email:focus~label,
+.main-input .f-input-email:not(:placeholder-shown)~label,
+.main-input .form-select~label {
+    transform: scale(.70) translateY(-5px) translateX(11.2px);
+    color: rgb(225, 210, 210) !important;
+}
+
+footer .top-footer .text-part .f-btn {
+    background-color: var(--white-color);
+    padding: 8px 40px;
+    border: none;
+    border-radius: 50px;
+    font-family: var(--font-openSans);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Accordion (Mobile Device) */
+footer .top-footer .accordion .accordion-btn {
+    background-color: var(--dark-teal-color);
+    color: var(--white-color) !important;
+    padding: 14px 16px !important;
+    font-family: var(--font-Philosopher) !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+footer .top-footer .accordion .accordion-btn::after {
+    background-image: url(../images/down-arrow.png) !important;
+}
+
+footer .top-footer .accordion .accordion-item {
+    border: none !important;
+    background-color: transparent !important;
+    color: var(--white-color);
+}
+
+footer .top-footer .accordion .accordion-btn:focus {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+footer .top-footer .accordion .accordion-body {
+    padding: 8px 16px !important;
+}
+
+footer .top-footer .accordion .accordion-btn:not(.collapsed) {
+    box-shadow: none !important;
+}
+
+/* Bottom Footer */
+/* Payment Icons */
+footer .bottom-footer .payment-icon .pay-icon-1 {
+    background-color: var(--white-color);
+    width: 36px;
+    height: 24px;
+    margin: 0 10px;
+    position: relative;
+    border-radius: 3px;
+}
+
+footer .bottom-footer .payment-icon .pay-icon-1 img {
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Language and Rupees */
+footer .bottom-footer .language-rupees .dropdown-menu {
+    background-color: var(--dark-teal-color) !important;
+    color: var(--white-color);
+    border: 1px solid #AAA5AC;
+    margin-bottom: 8px;
+}
+
+footer .bottom-footer .language-rupees .dropdown-menu li {
+    padding: 5px 15px;
+}
+
+footer .bottom-footer .language-rupees button {
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 10px 20px 10px 15px !important;
+    /* display: block; */
+    background-color: transparent;
+    border: 1px solid #AAA5AC;
+    font-family: var(--font-openSans);
+}
+
+/* CopyRight */
+footer .bottom-footer .f-copyright span p {
+    font-size: 12px;
+    font-family: var(--font-openSans);
+    margin-bottom: 0;
+}
+
+
+
+footer .main-box .bottom-footer {
+    border-top: 1px solid #1d5d70;
+}
